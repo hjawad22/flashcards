@@ -30,7 +30,6 @@ class Round {
 calculatePercentCorrect() {
   const totalGuesses = this.turns
   const totalCorrectGuesses = this.turns - this.incorrectGuesses.length
-  console.log(totalGuesses)
   return Math.floor((totalCorrectGuesses / totalGuesses) * 100)
 }
 
